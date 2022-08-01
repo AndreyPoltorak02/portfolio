@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Портфолио</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <h1 class="header-title">Андрей Полторак </h1>
+        <p class="header-subtitle">веб-разработчик, создание сайтов</p>
+        <a href="#portfolio" class="header-arrow">
+            <img src="./img/header/chevron-down.svg" alt="Arrow">
+        </a>
+    </header>
+    <main>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio-header">Портфолио</h2>
+                <div class="portfolio-cards-wrapper">
+                    <div class="card">
+                        <a href="wayup.html" class="card-link">
+                            <img class="card-img" src="./img/portfolio/wayup.jpg" alt="Одностраничный адаптивный сайт">
+                            <h3 class="card-title">Way Up</h3>
+                            <p>Верстка одностраничного адаптивного сайта.</p>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="shop.html" class="card-link">
+                            <img class="card-img" src="./img/portfolio/internet-shop.jpg" alt="Интернет - магазин">
+                            <h3 class="card-title">Интерннет - магазин</h3>
+                            <p>Верстка Интернет - магазина.</p>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="kinomonstr.html" class="card-link">
+                            <img class="card-img" src="./img/portfolio/kinomonster.jpg" alt="Многостраничный адаптивный сайт">
+                            <h3 class="card-title">КиноМонстр</h3>
+                            <p>Верстка многостраничного адаптивного сайта.</p>
+                        </a>
+                    </div>
+                    <div class="card" >
+                        <a href="./jquery-calculator.html" class="card-link">
+                        <img class="card-img" src="./img/portfolio/jquery-calculator.jpg" alt="Калькулятор">
+                        <h3 class="card-title">Калькулятор</h3>
+                        <p>Верстка калькулятора.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright footer-col">
+                    <div class="footer-copyright-name">© Андрей Полторак</div>
+                    <p>HTML верстка и разработка сайтов</p>
+                </div>
+                <div class="footer-icons footer-col">
+                    <p>Мои профили в социальных сетях:</p>
+                    <div class="footer-icons-row">
+                        <a href="#">
+                            <img src="./img/footer-icons/vk.svg" alt="Вконтакте">
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer-icons/instagram.svg" alt="Инстаграм">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-contacts footer-col">
+                    <a href="https://vk.me/id230305251" class="footer-button" target="_blank">Связаться Вконтакте</a>
+                    <p>Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
